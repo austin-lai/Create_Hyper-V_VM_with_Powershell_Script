@@ -1,60 +1,4 @@
 
-# Create Hyper-V VM with Powershell Script
-
-```markdown
-> Austin.Lai |
-> -----------| October 26th, 2023
-> -----------| Updated on October 26th, 2023
-```
-
----
-
-## Table of Contents
-
-<!-- TOC -->
-
-- [Create Hyper-V VM with Powershell Script](#create-hyper-v-vm-with-powershell-script)
-    - [Table of Contents](#table-of-contents)
-    - [Disclaimer](#disclaimer)
-    - [Description](#description)
-    - [create_hyper-v_vm](#create_hyper-v_vm)
-
-<!-- /TOC -->
-
-<br>
-
-## Disclaimer
-
-<span style="color: red; font-weight: bold;">DISCLAIMER:</span>
-
-This project/repository is provided "as is" and without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
-
-This project/repository is for <span style="color: red; font-weight: bold;">Educational</span> purpose <span style="color: red; font-weight: bold;">ONLY</span>. Do not use it without permission. The usual disclaimer applies, especially the fact that me (Austin) is not liable for any damages caused by direct or indirect use of the information or functionality provided by these programs. The author or any Internet provider bears NO responsibility for content or misuse of these programs or any derivatives thereof. By using these programs you accept the fact that any damage (data loss, system crash, system compromise, etc.) caused by the use of these programs is not Austin responsibility.
-
-<br>
-
-## Description
-
-<!-- Description -->
-
-Simple PowerShell script as a helper or tool to help you create Hyper-V VM.
-
-<!-- /Description -->
-
-<br>
-
-## create_hyper-v_vm
-
-The `create_hyper-v_vm.ps1` file can be found [here](./create_hyper-v_vm.ps1) or below:
-
-<details>
-
-<summary><span style="padding-left:10px;">Click here to expand and check out the powershell script !!!</span>
-
-</summary>
-
-```powershell
-
 
 
 function Check-IsElevated {
@@ -279,9 +223,3 @@ else {
 
 }
 
-
-```
-
-</details>
-
-<br>
