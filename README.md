@@ -72,8 +72,8 @@ function Check-IsElevated {
 
 
 
-# Define the function to create hyper-v vm from wsl vhdx
-function Create_HyperV_VM_From_WSL_VHDX {
+# Define the function to create hyper-v vm
+function Create_HyperV_VM {
 
     ################################################
     # Preperation to create hyper-v vm
@@ -267,7 +267,7 @@ function Create_HyperV_VM_From_WSL_VHDX {
 
 if (Check-IsElevated) {
 
-    Create_HyperV_VM_From_WSL_VHDX
+    Create_HyperV_VM
 
 }
 else {
@@ -278,8 +278,6 @@ else {
   exit
 
 }
-
-
 ```
 
 </details>
